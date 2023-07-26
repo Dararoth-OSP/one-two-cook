@@ -28,7 +28,7 @@ const AddtionalRecipes = () => {
                 Delicious recipe for this up coming Pchum Ben
               </p>
               <Link
-                to="/foods"
+                to="/one-two-cook/foods"
                 className="text-[#f56040] xl:float-right drop-shadow-[2px_2px_7px_#000000] xl:drop-shadow-none flex items-center gap-2 text-2xl font-bold mr-6"
               >
                 See More <FaChevronRight />

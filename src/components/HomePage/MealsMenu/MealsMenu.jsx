@@ -19,7 +19,7 @@ const MealsMenu = () => {
           <MealCard />
         </li>
       </ul>
-      <Link to='/foods' className="block max-w-[130px] text-center bg-[#f56040] text-white rounded-2xl my-14 font-bold mx-auto py-1.5">
+      <Link to='/one-two-cook/foods' className="block max-w-[130px] text-center bg-[#f56040] text-white rounded-2xl my-14 font-bold mx-auto py-1.5">
         See More
       </Link>
     </div>
