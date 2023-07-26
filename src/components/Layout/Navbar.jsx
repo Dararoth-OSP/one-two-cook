@@ -53,7 +53,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? "border-b-2" : "undefined"
               }
-              to="/foods"
+              to="/one-two-cook/foods"
             >
               Foods
             </NavLink>
@@ -63,7 +63,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? "border-b-2" : undefined
               }
-              to="/drinks"
+              to="/one-two-cook/drinks"
             >
               Drink
             </NavLink>
@@ -73,7 +73,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? "border-b-2" : undefined
               }
-              to="/desserts"
+              to="/one-two-cook/desserts"
             >
               Desserts
             </NavLink>
@@ -83,13 +83,13 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? "border-b-2" : undefined
               }
-              to="/random-recipe"
+              to="/one-two-cook/random-recipe"
             >
               Random
             </NavLink>
           </li>
           <Link
-            to={"/new-recipe"}
+            to={"/one-two-cook/new-recipe"}
             className="flex lg:hidden gap-1 justify-center items-center w-full rounded-lg mx-auto text-white px-2 py-2 bg-[#f56040] hover:bg-[#f56040]/95"
           >
             <FaPlus /> Create Recipe
@@ -102,7 +102,7 @@ const Navbar = () => {
           Add To Pantry
         </button> */}
         <Link
-          to={"/new-recipe"}
+          to={"/one-two-cook/new-recipe"}
           className="hidden lg:flex whitespace-nowrap items-center gap-1 mr-2 bg-white text-[#f56040] px-5 py-[8px] rounded-2xl"
         >
           <FaPlus /> Create Recipe

@@ -51,7 +51,7 @@ const SearchList = ({ searchResults, isLoading, itemClick }) => {
       )}
       {searchResults.length > 3 && (
         <Link
-          to="/search-page"
+          to="/one-two-cook/search-page"
           onClick={itemClick}
           className="py-3 bg-orange-50 duration-100 hover:bg-orange-100 rounded-md flex justify-center hover:underline text-orange-600 text-center"
         >

@@ -23,21 +23,21 @@ import { useLayoutEffect } from "react";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<HeaderFooter />} errorElement={<ErrorPage />}>
+    <Route path="/one-two-cook/" element={<HeaderFooter />} errorElement={<ErrorPage />}>
       <Route index element={<Home />} />
 
-      <Route path="/foods" element={<Foods />} />
-      <Route path="/foods/:recipeId" element={<RecipeDetail />} />
+      <Route path="/one-two-cook/foods" element={<Foods />} />
+      <Route path="/one-two-cook/foods/:recipeId" element={<RecipeDetail />} />
 
-      <Route path="/drinks" element={<Drinks />} />
-      <Route path="/drinks/:recipeId" element={<RecipeDetail />} />
+      <Route path="/one-two-cook/drinks" element={<Drinks />} />
+      <Route path="/one-two-cook/drinks/:recipeId" element={<RecipeDetail />} />
 
-      <Route path="/desserts" element={<Desserts />} />
-      <Route path="/desserts/:recipeId" element={<RecipeDetail />} />
+      <Route path="/one-two-cook/desserts" element={<Desserts />} />
+      <Route path="/one-two-cook/desserts/:recipeId" element={<RecipeDetail />} />
 
-      <Route path="/new-recipe" element={<CreateRecipe />} />
+      <Route path="/one-two-cook/new-recipe" element={<CreateRecipe />} />
 
-      <Route path="/random-recipe/" element={<Random />}>
+      <Route path="/one-two-cook/random-recipe/" element={<Random />}>
         <Route
           index
           element={
@@ -52,16 +52,16 @@ const router = createBrowserRouter(
 
         <Route path="dessert" element={<RandomDessert />} />
       </Route>
-      <Route path="/random-recipe/food/:recipeId" element={<RecipeDetail />} />
-      <Route path="/random-recipe/drink/:recipeId" element={<RecipeDetail />} />
+      <Route path="/one-two-cook/random-recipe/food/:recipeId" element={<RecipeDetail />} />
+      <Route path="/one-two-cook/random-recipe/drink/:recipeId" element={<RecipeDetail />} />
       <Route
-        path="/random-recipe/dessert/:recipeId"
+        path="/one-two-cook/random-recipe/dessert/:recipeId"
         element={<RecipeDetail />}
       />
-      <Route path="/search-page" element={<SearchPage />} />
-      <Route path="/search-page/:recipeId" element={<RecipeDetail />} />
+      <Route path="/one-two-cook/search-page" element={<SearchPage />} />
+      <Route path="/one-two-cook/search-page/:recipeId" element={<RecipeDetail />} />
 
-      <Route path="*" element={<ErrorPage />} />
+      <Route path="/one-two-cook/*" element={<ErrorPage />} />
     </Route>
   )
 );
