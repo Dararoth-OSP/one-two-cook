@@ -87,7 +87,7 @@ const SearchPage = () => {
           No result founded in{" "}
           {
             <Link
-              to={`/${category !== "All" ? category : "foods"}`}
+              to={`/one-two-cook/${category !== "All" ? category : "foods"}`}
               className="font-semibold underline"
             >
               {category}

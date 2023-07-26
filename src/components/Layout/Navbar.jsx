@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="lg:hidden" onClick={() => setIsToggle((prev) => !prev)}>
           <FaBars className="w-7 h-7" />
         </div>
-        <Link to="/one-two-cook/">
+        <Link to="/one-two-cook">
           <img src={Logo} alt="logo" className="w-48 h-[51px]" />
         </Link>
         <ul
