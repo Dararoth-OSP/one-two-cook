@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const RandomRecipe = () => {
   return (
-    <Link to="/random-recipe" className="text-center">
+    <Link to="/one-two-cook/random-recipe" className="text-center">
       <h1 className="text-4xl font-bold ">Random Recipe</h1>
       <span className="block my-5 text-lg">
         Don't know what to cook? <br />
